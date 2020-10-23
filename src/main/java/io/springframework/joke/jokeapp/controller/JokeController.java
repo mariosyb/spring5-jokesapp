@@ -32,6 +32,7 @@ public class JokeController {
         model.addAttribute("joke", jokeService.getJoke());
 
         // se retorna el nombre de la vista(pagina)
+        // con thymeleaf va a buscar la vista en resources/templates
         return "chucknorris";
     }
 
