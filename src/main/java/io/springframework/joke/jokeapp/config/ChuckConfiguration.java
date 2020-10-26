@@ -13,13 +13,11 @@ import org.springframework.context.annotation.Configuration;
  *
  * @author msulbara
  */
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    // esta anotacion va a crear un bean de spring
-    // del tipo que devuelta el metodo anotado
-    // el nombre del bean por defecto sera el del metodo
-    @Bean
+    // cambiar a xml config
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
